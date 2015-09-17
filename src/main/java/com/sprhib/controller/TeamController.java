@@ -18,7 +18,7 @@ import com.sprhib.service.TeamService;
 public class TeamController {
 	
 	@Autowired
-	private TeamService teamService;
+	private TeamService teamService
 	
 	@RequestMapping(value="/add", method=RequestMethod.GET)
 	public ModelAndView addTeamPage() {
